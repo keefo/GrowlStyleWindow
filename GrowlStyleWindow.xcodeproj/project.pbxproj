@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A0AE7014AEC29F00AB2F6B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A0AE6F14AEC29F00AB2F6B /* Cocoa.framework */; };
+		A7A0AE7A14AEC29F00AB2F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7A0AE7814AEC29F00AB2F6B /* InfoPlist.strings */; };
+		A7A0AE7C14AEC29F00AB2F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A0AE7B14AEC29F00AB2F6B /* main.m */; };
+		A7A0AE8014AEC29F00AB2F6B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A7A0AE7E14AEC29F00AB2F6B /* Credits.rtf */; };
+		A7A0AE8314AEC29F00AB2F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A0AE8214AEC29F00AB2F6B /* AppDelegate.m */; };
+		A7A0AE8614AEC29F00AB2F6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A0AE8414AEC29F00AB2F6B /* MainMenu.xib */; };
+		A7A0AE8E14AEC2B200AB2F6B /* growlStyleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A0AE8D14AEC2B200AB2F6B /* growlStyleWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A0AE6B14AEC29F00AB2F6B /* GrowlStyleWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowlStyleWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A0AE6F14AEC29F00AB2F6B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7A0AE7214AEC29F00AB2F6B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A7A0AE7314AEC29F00AB2F6B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A7A0AE7414AEC29F00AB2F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A0AE7714AEC29F00AB2F6B /* GrowlStyleWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrowlStyleWindow-Info.plist"; sourceTree = "<group>"; };
+		A7A0AE7914AEC29F00AB2F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7A0AE7B14AEC29F00AB2F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A0AE7D14AEC29F00AB2F6B /* GrowlStyleWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrowlStyleWindow-Prefix.pch"; sourceTree = "<group>"; };
+		A7A0AE7F14AEC29F00AB2F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A7A0AE8114AEC29F00AB2F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7A0AE8214AEC29F00AB2F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7A0AE8514AEC29F00AB2F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A7A0AE8C14AEC2B200AB2F6B /* growlStyleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = growlStyleWindow.h; sourceTree = "<group>"; };
+		A7A0AE8D14AEC2B200AB2F6B /* growlStyleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = growlStyleWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A0AE6814AEC29F00AB2F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A0AE7014AEC29F00AB2F6B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A0AE6014AEC29F00AB2F6B = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE7514AEC29F00AB2F6B /* GrowlStyleWindow */,
+				A7A0AE6E14AEC29F00AB2F6B /* Frameworks */,
+				A7A0AE6C14AEC29F00AB2F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A0AE6C14AEC29F00AB2F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE6B14AEC29F00AB2F6B /* GrowlStyleWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A0AE6E14AEC29F00AB2F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE6F14AEC29F00AB2F6B /* Cocoa.framework */,
+				A7A0AE7114AEC29F00AB2F6B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A0AE7114AEC29F00AB2F6B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE7214AEC29F00AB2F6B /* AppKit.framework */,
+				A7A0AE7314AEC29F00AB2F6B /* CoreData.framework */,
+				A7A0AE7414AEC29F00AB2F6B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7A0AE7514AEC29F00AB2F6B /* GrowlStyleWindow */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE8C14AEC2B200AB2F6B /* growlStyleWindow.h */,
+				A7A0AE8D14AEC2B200AB2F6B /* growlStyleWindow.m */,
+				A7A0AE8114AEC29F00AB2F6B /* AppDelegate.h */,
+				A7A0AE8214AEC29F00AB2F6B /* AppDelegate.m */,
+				A7A0AE8414AEC29F00AB2F6B /* MainMenu.xib */,
+				A7A0AE7614AEC29F00AB2F6B /* Supporting Files */,
+			);
+			path = GrowlStyleWindow;
+			sourceTree = "<group>";
+		};
+		A7A0AE7614AEC29F00AB2F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A0AE7714AEC29F00AB2F6B /* GrowlStyleWindow-Info.plist */,
+				A7A0AE7814AEC29F00AB2F6B /* InfoPlist.strings */,
+				A7A0AE7B14AEC29F00AB2F6B /* main.m */,
+				A7A0AE7D14AEC29F00AB2F6B /* GrowlStyleWindow-Prefix.pch */,
+				A7A0AE7E14AEC29F00AB2F6B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A0AE6A14AEC29F00AB2F6B /* GrowlStyleWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A0AE8914AEC29F00AB2F6B /* Build configuration list for PBXNativeTarget "GrowlStyleWindow" */;
+			buildPhases = (
+				A7A0AE6714AEC29F00AB2F6B /* Sources */,
+				A7A0AE6814AEC29F00AB2F6B /* Frameworks */,
+				A7A0AE6914AEC29F00AB2F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowlStyleWindow;
+			productName = GrowlStyleWindow;
+			productReference = A7A0AE6B14AEC29F00AB2F6B /* GrowlStyleWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A0AE6214AEC29F00AB2F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7A0AE6514AEC29F00AB2F6B /* Build configuration list for PBXProject "GrowlStyleWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A0AE6014AEC29F00AB2F6B;
+			productRefGroup = A7A0AE6C14AEC29F00AB2F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A0AE6A14AEC29F00AB2F6B /* GrowlStyleWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A0AE6914AEC29F00AB2F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A0AE7A14AEC29F00AB2F6B /* InfoPlist.strings in Resources */,
+				A7A0AE8014AEC29F00AB2F6B /* Credits.rtf in Resources */,
+				A7A0AE8614AEC29F00AB2F6B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A0AE6714AEC29F00AB2F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A0AE7C14AEC29F00AB2F6B /* main.m in Sources */,
+				A7A0AE8314AEC29F00AB2F6B /* AppDelegate.m in Sources */,
+				A7A0AE8E14AEC2B200AB2F6B /* growlStyleWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A0AE7814AEC29F00AB2F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A0AE7914AEC29F00AB2F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7A0AE7E14AEC29F00AB2F6B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A0AE7F14AEC29F00AB2F6B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A7A0AE8414AEC29F00AB2F6B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A0AE8514AEC29F00AB2F6B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A0AE8714AEC29F00AB2F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		A7A0AE8814AEC29F00AB2F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A7A0AE8A14AEC29F00AB2F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowlStyleWindow/GrowlStyleWindow-Prefix.pch";
+				INFOPLIST_FILE = "GrowlStyleWindow/GrowlStyleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A0AE8B14AEC29F00AB2F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowlStyleWindow/GrowlStyleWindow-Prefix.pch";
+				INFOPLIST_FILE = "GrowlStyleWindow/GrowlStyleWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A0AE6514AEC29F00AB2F6B /* Build configuration list for PBXProject "GrowlStyleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A0AE8714AEC29F00AB2F6B /* Debug */,
+				A7A0AE8814AEC29F00AB2F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A0AE8914AEC29F00AB2F6B /* Build configuration list for PBXNativeTarget "GrowlStyleWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A0AE8A14AEC29F00AB2F6B /* Debug */,
+				A7A0AE8B14AEC29F00AB2F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A0AE6214AEC29F00AB2F6B /* Project object */;
+}
